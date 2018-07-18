@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background: #fff;
+}
+
+:focus {
+    outline: 0
+}
+
+body,
+html {
+    color: #555;
+    font-family: "微软雅黑", Verdana, Arial, Helvetica, sans-serif;
+    font-size: .24rem
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: 400
+}
+
+.h {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center
+}
+
+.v {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column
+}
+
+input {
+    outline: 0
+}
+
+button,
+input,
+select,
+textarea {
+    -moz-appearance: none;
+    -ms-progress-appearance: none;
+    -webkit-appearance: none;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+fieldset,
+img {
+    border: none
+}
+
+li,
+ol,
+ul {
+    list-style: none
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+a,
+img {
+    display: block
+}
+
+a,
+img {
+    -webkit-touch-callout: none
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    color: #666;
+    display: block;
+    font-size: .22rem;
+}
+
+input::-webkit-search-cancel-button,
+input::-webkit-search-decoration {
+    display: none
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+i {
+    font-size: .4rem!important;
+    color: #666;
+}
